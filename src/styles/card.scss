@@ -70,11 +70,11 @@
     padding: 12px 70px 12px 69px;
     text-decoration: none;
     text-transform: uppercase;
-  }
 
-  &__button:hover {
-    color: $button-color;
-    border: 1px solid $button-color;
-    background-color: $white;
+    &:hover {
+      color: $button-color;
+      border: 1px solid $button-color;
+      background-color: $white;
+    }
   }
 }
